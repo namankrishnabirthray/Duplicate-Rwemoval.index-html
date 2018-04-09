@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29525" started-at="2018-04-09T13:15:37Z" finished-at="2018-04-09T13:16:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29525" started-at="2018-04-09T13:15:37Z" finished-at="2018-04-09T13:16:07Z">
+      <class name="testCases.TestCaseName">
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="preRequisite" is-config="true" duration-ms="391" started-at="2018-04-09T18:45:37Z" finished-at="2018-04-09T18:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-09T18:45:38Z" finished-at="2018-04-09T18:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_ID(java.lang.String)[pri:0, instance:testCases.TestCaseName@1a968a59]" name="TC_ID" duration-ms="26527" started-at="2018-04-09T18:45:38Z" data-provider="URLs" finished-at="2018-04-09T18:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www-stage.oracle.com/storage/all-flash-fs-and-fs1/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ID -->
+        <test-method status="PASS" signature="updateResults()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="updateResults" is-config="true" duration-ms="2386" started-at="2018-04-09T18:46:04Z" finished-at="2018-04-09T18:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="tear" is-config="true" duration-ms="7893" started-at="2018-04-09T18:46:07Z" finished-at="2018-04-09T18:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testCases.TestCaseName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

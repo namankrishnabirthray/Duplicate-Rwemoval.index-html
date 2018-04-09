@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>dark</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>Oracle|WebTech-Automation</documentTitle>
+         <link rel="icon" type="image/png" href="o.png"></link>
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+	<reportName>
+            <![CDATA[
+                <img src="D:\WebTech Hybrid Framework\UniversalNav\Report\o.png" />
+            ]]>
+        </reportName>
+
+        </reportName>  
+	 
+	
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+		
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+         <styles>
+            <![CDATA[
+                .report-name { padding-left: 80px;font-weight: bold;font-size:large; } .report-name >a > img { float: left;height: 48px;margin-left: -150px;margin-top: 0px;width: 130px;z-index:2000;position:absolute; }
+            ]]>
+        </styles>
+       
+    </configuration>
+</extentreports>
