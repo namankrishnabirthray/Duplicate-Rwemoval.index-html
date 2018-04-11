@@ -105,11 +105,11 @@ public class Base
                              linkcounts = linksize.size();
                              System.out.println(linkcounts);
                              String []links=new String[linkcounts];
-                             for(int i=0;i< 2;i++)
+                             for(int i=0;i< 10;i++)
                                {
                               links[i] = linksize.get(i).getAttribute("href");
                                 } 
-                              for(int i=0;i<2;i++) { 
+                              for(int i=0;i<10;i++) { 
                        
                             	   try{
                             		   driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
@@ -136,12 +136,14 @@ public class Base
                       
                         	          if(currentUrl.contains("index.html")) {
                         	        	 data[0][0]="301Fail";
+                        	        	 logger.assignCategory(url);
                 	                 logger.log(Status.FAIL,( MarkupHelper.createTable(data)));
  
                 	                
                         	         }
                         	          else {
                         	        	 data[0][0]="301Pass";
+                        	        	 logger.assignCategory(url);
                         	        	 logger.log(Status.PASS, MarkupHelper.createTable(data));
                         	        	
                         	        	 

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29525" started-at="2018-04-09T13:15:37Z" finished-at="2018-04-09T13:16:07Z">
+  <suite name="Default suite" duration-ms="94550" started-at="2018-04-10T18:28:25Z" finished-at="2018-04-10T18:30:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29525" started-at="2018-04-09T13:15:37Z" finished-at="2018-04-09T13:16:07Z">
+    <test name="Default test" duration-ms="94550" started-at="2018-04-10T18:28:25Z" finished-at="2018-04-10T18:30:00Z">
       <class name="testCases.TestCaseName">
-        <test-method status="PASS" signature="preRequisite()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="preRequisite" is-config="true" duration-ms="391" started-at="2018-04-09T18:45:37Z" finished-at="2018-04-09T18:45:37Z">
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="preRequisite" is-config="true" duration-ms="524" started-at="2018-04-10T23:58:25Z" finished-at="2018-04-10T23:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequisite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-09T18:45:38Z" finished-at="2018-04-09T18:45:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-10T23:58:26Z" finished-at="2018-04-10T23:58:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_ID(java.lang.String)[pri:0, instance:testCases.TestCaseName@1a968a59]" name="TC_ID" duration-ms="26527" started-at="2018-04-09T18:45:38Z" data-provider="URLs" finished-at="2018-04-09T18:46:04Z">
+        <test-method status="PASS" signature="TC_ID(java.lang.String)[pri:0, instance:testCases.TestCaseName@1a968a59]" name="TC_ID" duration-ms="93318" started-at="2018-04-10T23:58:26Z" data-provider="URLs" finished-at="2018-04-11T00:00:00Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ID -->
-        <test-method status="PASS" signature="updateResults()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="updateResults" is-config="true" duration-ms="2386" started-at="2018-04-09T18:46:04Z" finished-at="2018-04-09T18:46:07Z">
+        <test-method status="PASS" signature="updateResults()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="updateResults" is-config="true" duration-ms="261" started-at="2018-04-11T00:00:00Z" finished-at="2018-04-11T00:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateResults -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="tear" is-config="true" duration-ms="7893" started-at="2018-04-09T18:46:07Z" finished-at="2018-04-09T18:46:15Z">
+        <test-method status="PASS" signature="tear()[pri:0, instance:testCases.TestCaseName@1a968a59]" name="tear" is-config="true" duration-ms="7822" started-at="2018-04-11T00:00:00Z" finished-at="2018-04-11T00:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
